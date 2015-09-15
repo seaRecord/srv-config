@@ -14,6 +14,17 @@ gpgcheck=0
 enabled=1
 ```
 
+```
+yum info nginx
+...
+...
+yum install nginx
+...
+...
+```
+
+##### Useage
+
 You can add filePath of site into `nginx.conf`
 
 ```
@@ -37,15 +48,6 @@ server {
 ```
 
 Of course, also can add into the `nginx.conf` directly
-
-```
-yum info nginx
-...
-...
-yum install nginx
-...
-...
-```
 
 Before use `nginx -s reload` 
 
