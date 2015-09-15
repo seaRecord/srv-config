@@ -13,7 +13,14 @@ baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
 gpgcheck=0
 enabled=1
 ```
-You can set `nginx.conf` simply like:
+
+You can add filePath of site into `nginx.conf`
+
+```
+
+```
+
+And new a file under the `./site`, like: 
 
 ```
 server {
@@ -28,6 +35,8 @@ server {
     }
 }
 ```
+
+Of course, also can add into the `nginx.conf` directly
 
 ```
 yum info nginx
