@@ -17,10 +17,10 @@ enabled=1
 You can add filePath of site into `nginx.conf`
 
 ```
-
+include /etc/nginx/site/*;
 ```
 
-And new a file under the `./site`, like: 
+and then new a file under the `./site`, like: 
 
 ```
 server {
