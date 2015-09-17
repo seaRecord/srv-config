@@ -45,8 +45,13 @@ sudo less /var/log/shadowsocks.log
 
 download the package as you need:
 
-参数 | 类型 
---- | ---
-OS: | [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS/releases)
-Window: | [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
-Browser: | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases)
+参数 | 地址 | 介绍
+--- | --- | ---
+OS: | [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS/releases) | 无
+Window: | [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases) | 仅监听转发端口，翻墙需配合本地插件(需要确认)
+
+本地插件 | 地址 | 介绍
+--- | --- | ---
+Browser: | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) | 浏览器插件
+Proxifier: | [Proxifier](https://www.proxifier.com/) | 有中文，配置简单
+Proxycap: | [Proxycap](http://www.proxycap.com/) | 英文，破解较麻烦，但可实现UDP转发
