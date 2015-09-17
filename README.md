@@ -1,3 +1,4 @@
 # srv-config
 
-## [Nginx](./nginx.md)
+* [Nginx](./nginx.md)
+* [Shadowsocks](./shadowsocks.md)

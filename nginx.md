@@ -24,7 +24,7 @@ yum install nginx
   ...
 ```
 
-##Useage
+## Usage
 
 You can add filePath of site into `nginx.conf`
 
