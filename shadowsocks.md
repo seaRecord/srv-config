@@ -45,7 +45,7 @@ sudo less /var/log/shadowsocks.log
 
 download the package as you need:
 
-参数 | 地址 | 介绍
+系统 | 地址 | 介绍
 --- | --- | ---
 OS: | [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS/releases) | 无
 Window: | [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases) | 仅监听转发端口，翻墙需配合本地插件(需要确认)
