@@ -43,8 +43,16 @@ server {
     proxy_set_header host $host;
 
     location / {
-            proxy_pass http://127.0.0.1:10001;
+        proxy_pass http://127.0.0.1:10001;
     }
+
+    /* or */
+    location / {
+        root   /usr/src/app/project;
+        index  /usr/src/app/project/index.html;
+
+    }
+
 }
 ```
 
