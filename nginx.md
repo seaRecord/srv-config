@@ -49,7 +49,7 @@ server {
     /* or */
     location / {
         root   /usr/src/app/project;
-        index  /usr/src/app/project/index.html;
+        index  index.html;
 
     }
 
