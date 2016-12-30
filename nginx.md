@@ -26,7 +26,7 @@ yum install nginx
 
 ## Usage
 
-You can add filePath of site into `nginx.conf`
+You can add filePath of site into `nginx.conf`, default is under the file: `conf.d`
 
 ```
 include /etc/nginx/site/*;
