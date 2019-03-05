@@ -1,0 +1,17 @@
+alias ns="npm start"
+alias nb="npm run build"
+
+alias cdw="cd ~/pro"
+alias ll="ls -alF"
+
+alias gcl="git clone"
+alias gbr="git branch"
+alias gpl="git pull"
+alias gst="git status"
+alias gdf="git diff"
+alias gad="git add"
+alias gci="git commit"
+alias gps="git push"
+alias gck="git checkout"
+alias glo="git log"
+alias grl="git reflog"
